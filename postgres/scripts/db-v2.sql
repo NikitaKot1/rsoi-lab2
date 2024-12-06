@@ -1,5 +1,5 @@
 CREATE DATABASE payments;
---GRANT ALL PRIVILEGES ON DATABASE payments TO program;
+GRANT ALL PRIVILEGES ON DATABASE payments TO program;
 
 \c payments;
 CREATE TABLE payment
@@ -12,7 +12,7 @@ CREATE TABLE payment
 );
 
 CREATE DATABASE reservations;
---GRANT ALL PRIVILEGES ON DATABASE reservations TO program;
+GRANT ALL PRIVILEGES ON DATABASE reservations TO program;
 
 \c reservations;
 CREATE TABLE hotels
@@ -45,7 +45,7 @@ CREATE TABLE reservation
 );
 
 CREATE DATABASE loyalties;
---GRANT ALL PRIVILEGES ON DATABASE loyalties TO program;
+GRANT ALL PRIVILEGES ON DATABASE loyalties TO program;
 
 \c loyalties;
 CREATE TABLE loyalty
