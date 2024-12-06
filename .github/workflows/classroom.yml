@@ -28,6 +28,7 @@ jobs:
 
   api-test:
     name: Run API Tests
+    needs: [unit-tests]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

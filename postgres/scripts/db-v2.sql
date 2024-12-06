@@ -1,3 +1,5 @@
+CREATE ROLE program WITH PASSWORD 'test';
+
 CREATE DATABASE payments;
 GRANT ALL PRIVILEGES ON DATABASE payments TO program;
 
